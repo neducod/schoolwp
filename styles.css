@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Robeto Slap*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+}
+
+.header{
+    display: flex;
+    background-color: rgba(242, 242, 255, 0.742);
+    height: 550px;
+    gap: 100px;
+}
+
+.header-one{
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+.header-one h4{
+    font-family: "Playwrite AU VIC", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(245, 152, 38);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.header-one h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(21, 63, 130);
+  margin-bottom: 20px;
+}
+
+.header-one p{
+    width: 650px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(26, 24, 24);
+  margin-bottom: 40px;
+}
+
+.header-one-btns{
+    display: flex;
+    gap: 100px;
+    
+}
+
+#header-one-btn-one{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(21, 63, 130);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+#header-one-btn-one:hover{
+    background-color: white;
+    color: rgb(21, 63, 130);
+}
+
+#header-one-btn-two{
+    width: 170px;
+    color: rgb(21, 63, 130);
+    border-radius: 10px;
+    border-color: rgb(21, 63, 130);
+    font-size: 15px;
+    background-color: transparent;
+}
+
+#header-one-btn-two:hover{
+    background-color: rgb(21, 63, 130);
+    color: white;
+}
+
+.header-two{
+    
+}
+
+.header-two-image-back{
+    margin-top: 30px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(203, 135, 68);
+    border-radius: 700px 920px 920px 600px;
+}
+
+.header-two-image-back:hover{
+    background-color: brown;
+    height: 500px;
+}
+
+.header-two-image{
+    padding-top: 50px;
+}
+
+.header-two-image img{
+    width: 300px;
+}
+
+
+.third-frame{
+    height: 400px;
+    background-color: rgb(239, 234, 225);
+}
+
+.third-frame-header{
+    color: rgb(21, 63, 130);
+    display: grid;
+    place-items: center;
+    margin-bottom: 80px;
+}
+
+.third-frame-header h3{
+    font-size: 47px;
+    padding-top: 80px;
+
+}
+
+.third-frame-facts{
+    display: flex;
+    gap: 200px;
+    padding-left: 300px;
+}
+
+.third-frame-facts-a{
+    display: flex;
+    gap: 40px;
+}
+
+.third-frame-facts-a-img{
+    width: 40px;
+}
+
+.third-frame-facts-a-texts{
+    color: black;
+}
+
+.third-frame-facts-a-texts h2{
+    font-size: 44px;
+}
+
+.third-frame-facts-a-texts p{
+    font-size: 19px;
+}
+
+/*B*/
+
+.third-frame-facts-b{
+    display: flex;
+    gap: 40px;
+}
+
+.third-frame-facts-b-img{
+    width: 40px;
+}
+
+.third-frame-facts-b-texts{
+    color: black;
+}
+
+.third-frame-facts-b-texts h2{
+    font-size: 44px;
+}
+
+.third-frame-facts-b-texts p{
+    font-size: 19px;
+}
+
+/*C*/
+.third-frame-facts-c{
+    display: flex;
+    gap: 40px;
+}
+
+.third-frame-facts-c-img{
+    width: 40px;
+}
+
+.third-frame-facts-c-texts{
+    color: black;
+}
+
+.third-frame-facts-c-texts h2{
+    font-size: 44px;
+}
+
+.third-frame-facts-c-texts p{
+    font-size: 19px;
+}
+
+.fifth-frame{
+    padding-top: 200px;
+    height: 500px;
+    display: flex;
+    padding-left: 60px;
+}
+
+.fifth-frame-text{
+
+}
+
+.fifth-frame-text h4{
+    font-family: "Playwrite AU VIC", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(245, 152, 38);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.fifth-frame-text h3{
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  color: rgb(6, 31, 72);
+  font-size: 35px;
+  width: 400px;
+  font-style: normal;
+}
+
+.fifth-frame-text p{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(26, 24, 24);
+  width: 700px;
+}
+
+.fifth-frame-text #button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(21, 63, 130);
+    color: white;
+    border: none;
+}
+
+
+#play-btn{
+    width: 100px;
+   /* position: relative;*/
+    margin-left: 50px;
+}
+
+.sixth-frame{
+    height: 600px;
+    background-color: white;
+}
+
+.sixth-frame-wrapper{
+    height: 500px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+
+.sixth-frame-wrapper-content{
+    height: 300px;
+    width: 1100px;
+    background-color: rgb(21, 63, 130);
+    display: flex;
+    gap: 120px;
+    border-radius: 12px;
+}
+
+.sixth-frame-wrapper-content-texts{
+    padding-left: 60px;
+}
+
+.sixth-frame-wrapper-content-texts h3{
+    padding-top: 40px;
+    font-family: "Playwrite AU VIC", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(245, 152, 38);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sixth-frame-wrapper-content-texts h4{
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.sixth-frame-wrapper-content-texts p{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(253, 240, 240);
+  font-size: 16px;
+  width: 700px;
+}
+
+.sixth-frame-wrapper-content-btn{
+    padding-top: 90px;
+}
+
+.sixth-frame-wrapper-content-btn button{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    color: rgb(21, 63, 130);
+    border: none;
+    border-radius: 13px;
+}
+
+footer{
+    height: 400px;
+    background-color: rgb(21, 63, 130);
+    display: grid;
+    place-items: centre;
+}
+
+.footer-content{
+    height: 300px;
+    background-color: rgb(6, 31, 72);
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+    gap: 150px;
+    color: white;
+}
+
+.footer-content-a{
+    display: inline;
+    padding-left: 30px;
+}
+
+.footer-content-a-logo{
+    display: flex;
+}
+
+.footer-content-a-logo p{
+    font-size: 37px;
+}
+
+.footer-content-a p{
+    width: 350px;
+}
+
+.footer-content-a-logos{
+    display: flex;
+}
+
+.footer-content-a-logos #fb{
+    width: 40px;
+}
+
+
+.footer-content-b{
+    display: inline;
+}
+
+.footer-content-b h3{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 13px;
+}
+
+.footer-content-b li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.footer-content-b li ul{
+    padding-bottom: 16px;
+
+}
+.footer-content-c{
+    display: inline;
+}
+
+.footer-content-c h3{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 13px;
+}
+.footer-content-c li{
+    list-style-type: none;
+    color: white;
+}
+
+.footer-content-c ul li{
+    padding-bottom: 16px;
+}
+
+.footer-content-d{
+    display: inline;
+}
+
+.footer-content-d-one{
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.footer-content-d-one img{
+    width: 34px;
+    padding-bottom: 17px;
+}
+
+.footer-content-d-two{
+    display: flex;
+}
+
+.footer-content-d-two img{
+    width: 34px;
+    padding-bottom: 17px;
+}
+
+.footer-content-d-three{
+    display: flex;
+}
+
+.footer-content-d-three img{
+    width: 30px;
+}
+
+
+
+
+.fourth-frame{
+    height: 2000px;
+    background-color: whitesmoke;
+}
+
+.fourth-frame-wrapper{
+   display: grid;
+    place-items: center;
+}
+
+.fourth-frame-wrapper-texts{
+
+}
+
+.fourth-frame-wrapper-texts h4{
+
+    font-family: "Playwrite AU VIC", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(245, 152, 38);
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 250px;
+}
+
+.fourth-frame-wrapper-texts h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(21, 63, 130);
+  margin-bottom: 20px;
+  padding-left: 210px;
+}
+
+.fourth-frame-wrapper-texts p{
+    max-width: 650px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(26, 24, 24);
+  max-width: 800px;
+  display: grid;
+  place-items: center;
+  padding-left: 60px;
+}
+
+.fourth-frame-contanier{
+    display: inline;
+}
+
+.fourth-frame-contanier-firstslide{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.fourth-frame-contanier-firstslide-a{
+    display: inline;
+    max-height: 400px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+
+.fourth-frame-contanier-firstslide-a .first-image{
+    height: 300px;
+}
+
+.fourth-frame-contanier-firstslide-a .first-image img{
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.fourth-frame-contanier-firstslide-a-texts{
+    height: 200px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+.fourth-frame-contanier-firstslide-a-texts button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(21, 63, 130);
+    margin-left: 40px;
+}
+
+.fourth-frame-contanier-firstslide-a-texts h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(21, 63, 130);
+}
+
+.fourth-frame-contanier-firstslide-a-texts-secondpart{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fourth-frame-contanier-secslide{
+    display: flex;
+    margin-top: 200px;
+    padding-left: 40px;
+    gap: 50px;
+}
+
+.fourth-frame-contanier-secslide-a{
+    display: inline;
+    max-height: 400px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.fourth-frame-contanier-secslide-a .first-image{
+    height: 300px;
+}
+
+
+.fourth-frame-contanier-secslide-a .first-image img{
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fourth-frame-contanier-secslide-a-texts{
+    height: 200px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.fourth-frame-contanier-secslide-a-texts button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(21, 63, 130);
+    margin-left: 40px;
+}
+
+.fourth-frame-contanier-secslide-a-texts h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(21, 63, 130);
+}
+
+
+
+/*Things needed to be done
+1 that subject lsit thingy
+2 Nav bar
+3 Cookies message
+4 Beautiful responsiveness
+
+
+LINK: https://ecosystem.hubspot.com/marketplace/website/academia-theme-by-makewebbetter
+*/
